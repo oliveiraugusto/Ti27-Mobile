@@ -4,7 +4,6 @@ using System.Text;
 
 namespace Exercicio01
 {
-    // Alteração feita por Ezequiel
     public class Alunos
     {
         public double Media(double nota1, double nota2)
