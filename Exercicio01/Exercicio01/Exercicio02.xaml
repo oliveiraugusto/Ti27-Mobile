@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercicio01.Exercicio02">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Kilometragem Rodada"/>
+            <Entry x:Name="entryKilometros"/>
+
+            <Label Text="Combustivel colocada"/>
+            <Entry x:Name="entryCombustivel"/>
+
+            <Button Text="Calcular" 
+                    x:Name="entryCalcular" 
+                    Clicked="EntryCalcular_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

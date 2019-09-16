@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Exercicio01"
+             x:Class="Exercicio01.MainPage">
+
+    <StackLayout>
+        <Label Text="Digite o nome do aluno"/>
+        <Entry x:Name="entryNome"/>
+
+        <Label Text="Digite a primeira nota"/>
+        <Entry x:Name="entryNota01"/>
+
+        <Label Text="Digite a segunda nota"/>
+        <Entry x:Name="entryNota02"/>
+
+        <Button Text="Calcular" x:Name="buttonCalcular" Clicked="ButtonCalcular_Clicked"/>
+
+        <Label x:Name="labelMedia"/>
+    </StackLayout>
+
+</ContentPage>
